@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/jasmine/bin/jasmine"
+    "test": "./node_modules/jasmine/bin/jasmine.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npm": "^5.7.1"
+    "express": "^4.16.3",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "jasmine": "^3.1.0"
